@@ -1,0 +1,155 @@
+page{
+  background-color: #f1f1f1;
+}
+
+// 轮播
+swiper{
+    width: 100%;
+    height: calc(100vw*279/500);
+  }
+  image{
+    width: 100%; 
+  }
+
+
+// 导航
+.nav{
+  margin: 20rpx 3rpx;
+  background-color: #fff;
+  .magic_nav { 
+    display: flex;
+    flex-wrap: wrap;
+    .nav_icon{
+      width: 47%; 
+      margin: 10rpx;
+      position: relative;
+      navigator{
+        width: 100%;
+      }
+      image{
+        border-radius: 10rpx;
+      }
+      .nav_title{
+        position: absolute;
+        left: 30rpx;
+        top:28rpx;
+        font-size: 36rpx;
+        color: #fff;
+      }
+      .nav_title2{
+        position: absolute;
+        left: 30rpx;
+        bottom:33rpx;
+        font-size: 24rpx;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+//介绍
+.main_title{
+  display: flex;
+  flex-direction: column;
+  margin-top:32rpx;
+  background-color: #fff;
+  .sub_title{
+    flex: 1;
+    margin-bottom: 60rpx;
+    .sub_title1{
+      font-size: 60rpx;
+      padding-right: 40rpx;
+      margin-bottom: 32rpx;
+      color: #2A2D6D;
+      text-align: center;
+      font-weight: bold;
+    }
+    .sub_title2{
+      font-size: 30rpx;
+      color:#8E90B2;
+      text-align: center;
+     
+    }
+  }
+  .main_pro{
+    display: flex;
+    border: 1rpx solid #f1f1f1;
+    // height: 800rpx;
+    box-shadow: 0rpx 1rpx 20rpx  2rpx rgba(1, 1, 1, 0.1);
+    padding: 20rpx 32rpx;
+    margin-right: 45rpx;
+    margin-left: 45rpx;
+    // border: ;
+    .left{
+      flex:3;
+      display: flex;
+      flex-direction: column;
+      .left_top{
+        flex:2;
+        display: flex;
+        justify-content: space-between;
+        .num{
+          flex:2;
+          font-size: 45rpx;
+          text-align: center;
+          align-items: center;
+          color:#fff;
+          width: 53rpx;
+          height: 58rpx;
+          background-color:#DE443A; 
+          border-radius: 30rpx  30rpx 0rpx 30rpx;
+        }
+        .num_title{
+          flex:3;
+          font-size: 37rpx;
+          font-weight: 550;
+          text-align: center;
+          align-items: center;
+        }
+      }
+      .left_bottom{
+        flex:3;
+        .icon{
+          border: 1rpx solid #DE443A;
+          background-color: #DE443A;
+          border-radius: 50%;
+          display: inline;
+          margin:3rpx 17rpx;
+        }
+        
+      }
+    }
+    .right{
+      flex:2;
+    }
+  }
+}
+
+//关于我们
+.ours{
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx 45rpx;
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  position: relative;
+  .ours_title{
+    flex:2;
+    position: absolute;
+    padding-left: 16rpx;
+    left:20rpx;
+    top:35rpx;
+    font-size: 45rpx;
+    font-family:  'microsoft yahei';
+    border-left:10rpx solid #DE443A;
+    border-radius: 5rpx;
+  }
+  .ours_content{
+    flex:6;
+    font-size: 32rpx;
+    // padding: 10rpx 20rpx;
+    align-items: center;
+  }
+}

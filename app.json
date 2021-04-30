@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/book/book",
+    "pages/shop/shop",
+    "pages/mine/mine",
+    "pages/body/body",
+    "pages/youth/youth",
+    "pages/middle/middle",
+    "pages/old/old",
+    "pages/search/search",
+    "pages/test/test", 
+    "pages/results/results"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./icon/_home.png",
+        "selectedIconPath": "./icon/home.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "知识百科",
+        "iconPath": "./icon/_book.png",
+        "selectedIconPath": "./icon/book.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "兑换商城",
+        "iconPath": "./icon/_shop.png",
+        "selectedIconPath": "./icon/shop.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "./icon/_mine.png",
+        "selectedIconPath": "./icon/mine.png"
+      }
+    ],
+    "color": "#8a8a8a",
+    "selectedColor": "#f0513d"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

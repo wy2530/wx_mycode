@@ -1,0 +1,51 @@
+@keyframes remindMessage {
+    0% {
+      -webkit-transform: translateX(90%);
+    }
+  
+    100% {
+      -webkit-transform: translateX(-180%);
+    }
+  }
+  
+  .tongzhitext {
+    margin-right:80rpx;
+    margin-left: 10rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .tongzhi-text {
+    font-size: 28rpx;
+    animation: remindMessage 14s linear infinite;
+    width: 100%;
+    color: #fff;
+    background-color: var(--themeColor);
+    position: absolute;
+    right: 20rpx;
+    top:0rpx;
+    display: block;
+  }
+  
+  .notice-wrap {
+    background: var(--themeColor);
+    width: 100%;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #d09868;
+    font-size: 28rpx;
+  }
+  
+  .closeView {
+    width: 55rpx;
+    height: 55rpx;
+    line-height: 55rpx;
+    background-color: var(--themeColor);
+    position: absolute;
+    right: 0rpx;
+    top: 5rpx;
+    color: #fff ;
+    text-align: center;
+    font-size: 35rpx;
+  }

@@ -1,0 +1,40 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2350588_2rya49d6ydr.eot?t=1611659293010'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2350588_2rya49d6ydr.eot?t=1611659293010#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('//at.alicdn.com/t/font_2350588_2rya49d6ydr.woff?t=1611659293010') format('woff'),
+  url('//at.alicdn.com/t/font_2350588_2rya49d6ydr.ttf?t=1611659293010') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2350588_2rya49d6ydr.svg?t=1611659293010#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-canjiaxiaowaijingsai:before {
+  content: "\e600";
+}
+
+.icon-kaoshi1:before {
+  content: "\e61c";
+}
+
+.icon-timer:before {
+  content: "\e75e";
+}
+
+.icon-datiqia:before {
+  content: "\e662";
+}
+
+.icon-shizhong:before {
+  content: "\e608";
+}
+
+.icon-kaoshi:before {
+  content: "\e62f";
+}

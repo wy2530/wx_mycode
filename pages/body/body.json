@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Anno":"../../components/Anno/Anno",
+    "Answer":"../../components/Answer/Answer"
+  },
+  "navigationBarTitleText": "妇婴专区"
+}

@@ -1,0 +1,33 @@
+/* pages/results/results.wxss */
+.page {
+  padding: 20rpx;
+  background-color: #fff;
+  margin: 30rpx 0rpx;
+}
+.page .page-title {
+  font-size: 32rpx;
+}
+.page-head {
+  text-align: center;
+}
+.page-score {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+}
+.score-num {
+  font-size: 100rpx;
+}
+.page-footer {
+  margin-top: 60rpx;
+  text-align: center;
+}
+.wrong-btns {
+  display: flex;
+}
+.wrong-btns .wrong-btn {
+  flex: 1;
+  margin: 50rpx 40rpx;
+}

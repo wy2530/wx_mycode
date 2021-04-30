@@ -1,0 +1,55 @@
+.set_time {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 60rpx;
+  padding: 15rpx;
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  align-items: center;
+}
+.set_time .iconfont {
+  font-size: 40rpx;
+}
+.set_time .icon {
+  font-size: 45rpx;
+  color: var(--themeColor);
+}
+.set_time .icon_title {
+  font-size: 35rpx;
+  color: var(--themeColor);
+}
+.page {
+  background-color: #fff;
+  margin: 30rpx 0rpx;
+  padding: 20rpx  20rpx;
+  font-size: 30rpx;
+}
+.page .page__hd {
+  margin-top: 10rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #bdc1c4;
+}
+.page .page__bd {
+  padding: 20rpx;
+  display: flex;
+}
+.page .page__bd .my-choosebox {
+  display: block;
+  margin-bottom: 20rpx;
+  padding: 15rpx 0rpx;
+  text-align: left;
+  align-items: center;
+}
+/* 单选钮样式 */
+radio,
+checkbox {
+  transform: scale(0.8);
+}
+/*退出按钮*/
+.toindex-btn {
+  font-size: 13px;
+  color: #576b95;
+  text-decoration: underline;
+  margin-top: 600rpx;
+}

@@ -1,0 +1,33 @@
+<Anno></Anno>
+
+
+<!-- 试题分类 -->
+<view class="test">
+  <view class="test_title">在线试题</view>
+  <view class="test_content">
+    <view class="test_content_title">母婴基础问题测试</view>
+    <view class="test_content_btn" bindtap="toTestPage" data-testId="101-1">开始答题</view>
+    <view class="test_icon">
+        <text class="iconfont .icon-kaoshi"></text>
+        <text class="icon_text">考试</text>
+    </view>
+    <text class="time">限时<text class="color"> 10 </text> 分钟</text>
+  </view>
+  <view class="test_content">
+    <view class="test_content_title">母婴进阶问题测试</view>
+    <view class="test_content_btn" bindtap="toTestPage" data-testId="101-2">开始答题</view>
+    <view class="test_icon">
+        <text class="iconfont .icon-kaoshi1"></text>
+        <text class="icon_text">练习</text>
+    </view>
+    <text class="time">不限时</text>
+  </view>
+  <view class="test_content">
+    <view class="test_content_title">母婴最终问题测试</view>
+    <view class="test_content_btn" bindtap="toTestPage" data-testId="102">开始答题</view>
+  </view>
+  <view class="test_content">
+    <view class="test_content_title">母婴常见问题测试</view>
+    <view class="test_content_btn" bindtap="toTestPage" data-testId="104">开始答题</view>
+  </view>
+</view>

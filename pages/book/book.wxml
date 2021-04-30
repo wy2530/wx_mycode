@@ -1,0 +1,15 @@
+<!--pages/book/book.wxml-->
+
+<view class="wx_index">
+<!-- 搜索控件 -->
+  <SearchInput>
+  </SearchInput>
+
+</view>
+
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+  <block wx:if="{{tabs[0].isActivate}}">0</block>
+  <block wx:elif="{{tabs[1].isActivate}}">1</block>
+  <block wx:elif="{{tabs[2].isActivate}}">2</block>
+  <block wx:else>3</block>
+</Tabs>

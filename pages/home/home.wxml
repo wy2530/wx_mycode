@@ -1,0 +1,119 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<swiper autoplay="true" interval="2000" circular="true" indicator-dots="true" indicator-color="#8a8a8a" indicator-active-color="#f0513d">
+  <swiper-item><image mode="widthFix" src="http://1.s140i.faiusr.com/2/AIwBCAAQAhgAIMjC89cFKKi13GowgA84-Qk.jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="http://1.s140i.faiusr.com/2/AIwBCAAQAhgAILSO1-YFKPnavp8BMJQjOKkX.jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="http://1.s140i.faiusr.com/2/AIwBCAAQAhgAINKn79cFKNbzhMkCMIAPOJ8J.jpg"></image></swiper-item>
+</swiper>
+
+<!-- 导航栏 -->
+<view class="nav">
+  <view class="magic_nav"> 
+    
+      <view class="nav_icon_1 nav_icon">
+        <navigator class="items" url="../body/body">
+          <image mode="widthFix" src="https://static01.imgkr.com/temp/048801eba3fa4554abc2f00474f8fa82.png"></image>
+          <text class="nav_title">母婴专区</text> 
+          <text class="nav_title2">守护您和宝宝的健康</text>
+        </navigator>
+      </view> 
+
+      <view class="nav_icon_2 nav_icon"> 
+        <navigator class="items" url="../youth/youth">
+          <image mode="widthFix"  src="https://static01.imgkr.com/temp/0270109ede5e4cf0acd9c3def77ec410.png"></image>
+          <text class="nav_title">青年专区</text> 
+          <text class="nav_title2">守护您和宝宝的健康</text>
+        </navigator>
+      </view> 
+
+      <view class="nav_icon_3 nav_icon"> 
+        <navigator class="items" url="../middle/middle">
+          <image mode="widthFix"   src="https://static01.imgkr.com/temp/7b81dd03f5c047e1baae49ff07ffdf07.png"></image>
+          <text class="nav_title">中年专区</text> 
+          <text class="nav_title2">守护您和宝宝的健康</text>
+        </navigator>
+      </view> 
+
+      <view class="nav_icon_4 nav_icon">
+        <navigator class="items" url="../old/old">
+          <image mode="widthFix"  src="https://static01.imgkr.com/temp/2277afff97254118bd5c3d92a006427a.png"></image>
+          <text class="nav_title">老年专区</text> 
+          <text class="nav_title2">守护您和宝宝的健康</text>
+        </navigator>
+      </view>
+  </view>
+</view>
+
+<!-- 介绍 -->
+<view class="main_title">
+  <view class="sub_title">
+     <image  mode="widthFix" src="http://85664.s80i.faiusr.com/4/101/AFAIABAEGAAgzvvB-wUoiIHEhAIwugQ4Qw.png"></image>
+     <view class="sub_title1">
+       <text space="false">我们的特色</text>
+      </view>
+      <view class="sub_title2">
+       <text space="ensp">以 知 识 为 核 心  让 您 更 健 康</text>
+      </view>
+  </view>
+ 
+  <view class="sub_title main_pro"> 
+    <view class="left">
+      <view class="left_top">
+        <view class="num">ONE</view>
+        <view class="num_title">专业分区</view>
+      </view>
+      <view class="left_bottom">
+        <view class="num_list">
+          <view class="icon_list"><view class="icon"></view> 满足不同年龄需求</view>
+          <view class="icon_list"><view class="icon"></view>精准推送答题</view>
+        </view>
+      </view>
+    </view>
+    <view class="right">
+      <image  src="http://1121595.s81i.faiusr.com/4/101/AFEIu7pEEAQYACCl8frwBSi4lveYATDpATi8AUBl.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="sub_title main_pro">
+      <view class="left">
+      <view class="left_top">
+        <view class="num">TWO</view>
+        <view class="num_title">内容递进</view>
+      </view>
+      <view class="left_bottom">
+        <view class="num_list">
+           <view class="icon_list"><view class="icon"></view> 满足不同年龄需求</view>
+          <view class="icon_list"><view class="icon"></view>精准推送答题</view>
+        </view>
+      </view>
+    </view>
+    <view class="right">
+      <image  src="http://1121595.s81i.faiusr.com/4/101/AFEIu7pEEAQYACCl8frwBSjAjbKqBTDCATiRAUBl.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="sub_title main_pro">
+      <view class="left">
+      <view class="left_top">
+        <view class="num">THREE</view>
+        <view class="num_title">知识竞技</view>
+      </view>
+      <view class="left_bottom">
+        <view class="num_list">
+           <view class="icon_list"><view class="icon"></view> 满足不同年龄需求</view>
+          <view class="icon_list"><view class="icon"></view>精准推送答题</view>
+        </view>
+      </view>
+    </view>
+    <view class="right">
+      <image  src="http://1121595.s81i.faiusr.com/4/101/AFEIu7pEEAQYACCl8frwBSi9pcWMBDDHATiBAUBl.png" mode="widthFix"></image>
+    </view>
+  </view>
+</view> 
+
+
+<!-- 关于我们 -->
+<view class="ours">
+  <image  mode="widthFix" src="http://85664.s80i.faiusr.com/4/101/AFAIABAEGAAgzvvB-wUoiIHEhAIwugQ4Qw.png"></image>
+  <view class="ours_title">关于我们</view>
+  <view class="ours_content">{{ours_content}}</view>
+</view>
+

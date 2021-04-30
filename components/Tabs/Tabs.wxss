@@ -1,0 +1,28 @@
+/* components/Tabs/Tabs.wxss */
+.tabs{
+  width: 100%;
+  
+}
+
+.tabs_title{
+  display: flex;
+  /* padding:  10rpx; */
+  font-family:微软雅黑,'microsoft yahei',宋体,新宋体,sans-serif ;
+
+}
+
+.title_item{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active{
+  color: #d02f3e;
+  padding-bottom: 5rpx;
+  border-bottom: 5rpx solid currentColor;
+}
+.tabs_content{
+
+}
